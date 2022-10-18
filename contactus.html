@@ -62,7 +62,7 @@
 	</div>
 	<div id="contact">
 		<h3 id="heading">Contact Us</h3>
-		<form name="f1" method="post" action="#">
+		<form name="f1" method="post" action="connect.jsp">
 			<table
 				style="width: auto;top: 25%;left:15%; align-content: flex-start; align-items: flex-start; align-self: flex-start; position: absolute;">
 				<tr>
@@ -72,13 +72,13 @@
 							title="Give Your Last Name" required></td>
 				</tr>
 				<tr>
-					<td><input type="email" placeholder="Email Please" title="Give Your email" required></td>
-					<td><input type="text" name="mobile" placeholder="Phone / Mobile Please"
+					<td><input type="email" placeholder="Enter your email" name="email" title="Give Your email" required></td>
+					<td><input type="number" name="mobile" placeholder="Phone / Mobile Please"
 							title="Give Your Phone / Mobile " onBlur="checkphone(mobile)" required></td>
 				</tr><br>
 				<tr>
-					<td><input type="date" placeholder="YYYY-MM-DD" title="Give Your Preferred Date"></td>
-					<td><input type="time" placeholder="Preferred time Please" title="Give Your Preferred time"></td>
+					<td><input type="date" placeholder="YYYY-MM-DD" name="date" title="Give Your Preferred Date"></td>
+					<td><input type="time" placeholder="Preferred time Please" name="time" title="Give Your Preferred time"></td>
 				</tr><br>
 				<tr>
 					<td><input type="submit" value="New Patient" placeholder="New Patient"
